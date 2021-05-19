@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kreon&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
@@ -35,7 +42,8 @@ nav.img{
 .nav-links ul li a{
     color:azure;
     text-decoration: none;
-    font-size: 13px;
+     font-size: 23px;
+    font-family: 'Monoton', cursive;
 }
 .nav-links ul li::after{
     content:'';
@@ -59,7 +67,8 @@ nav.img{
     text-align: center;
 }
 .text-box h1{
-    font-size: 62px;
+    font-size: 80px;
+     font-family: 'Aclonica', sans-serif;
 }
 .text-box p{
     margin: 10px 0 40px;
@@ -76,10 +85,12 @@ nav.img{
     background:transparent;
     position: relative;
     cursor: pointer;
+    font-family: 'Kreon', serif;
+
 }
 .hero-btn:hover{
-    border: 1px solid rgb(172, 47, 255);
-    background: rgb(206, 47, 255);
+     border: 1px solid rgb(70, 61, 202);
+    background: rgb(70, 61, 202);
     transition: 1s;
 }
 
@@ -129,7 +140,19 @@ nav .fa{
 
     text-align:center;
     padding-top: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(104, 104, 218);
 
+}
+
+.facility h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rebeccapurple;
+    font-size: 50px;
+}
+
+.facpara{
+font-size: 25px;
 }
 
 
@@ -158,14 +181,9 @@ a:link {
   }
 
 
-h1{
-    font-size:36px;
-    font-weight: 600;
-}
-
 p{
     color:black;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 300;
     line-height: 22px;
     padding: 10px;
@@ -231,6 +249,18 @@ h3{
     display: block;
 }
 
+.cities h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rebeccapurple;
+    font-size: 50px;
+}
+
+.citpara{
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
 .layer{
     background: transparent;
     height: 100%;
@@ -273,6 +303,18 @@ text-align:center;
 
 }
 
+.testimonials h1{
+    color: rebeccapurple;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.testpara{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+}
+
+
 .testimonial-col{
     flex-basis: 44%;
     border-radius: 10px;
@@ -293,13 +335,14 @@ text-align:center;
 
 .testimonial-col p{
     padding: 0;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .testimonial-col h3{
 
     margin-top: 15px;
     text-align: left;
-    font-size: medium;
+    font-size: 30px;
 }
 
 
@@ -321,6 +364,7 @@ text-align:center;
     color:white;
     margin-bottom: 40px;
     padding: 0;
+     font-family: 'Kreon', serif;
 }
 
 
@@ -335,6 +379,12 @@ text-align:center;
     margin-bottom: 25px;
     margin-top: 20px;
     font-weight: 600;
+     font-family: 'Kreon', serif;
+}
+
+.footer p{
+    font-family: 'Kreon', serif;
+    font-size: 20px;
 }
 
 /*--icons---*/
